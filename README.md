@@ -1,16 +1,21 @@
-# React + Vite
+# 📚 LibLog - Kişisel Dijital Kütüphane Sistemi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LibLog, okuma alışkanlıklarınızı takip etmenizi sağlayan, modern ve interaktif bir **React** uygulamasıdır. Sıradan bir listeden öte, gerçekçi bir ahşap kitaplık tasarımıyla dijital kütüphane deneyimi sunar.
 
-Currently, two official plugins are available:
+![LibLog Banner](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **🪵 Gerçekçi Üçlü Raf Sistemi:** Kitaplarınız durumlarına göre (Okunuyor, Okunacak, Okundu) üç farklı ahşap rafa otomatik olarak dizilir.
+* **📖 İnteraktif Kitap Sırtları:** Her kitabın ismi sırtında dikey ve okunaklı şekilde yazar. Kitaplar, kütüphaneye eklendikçe otomatik olarak farklı renklerde ciltlenir.
+* **📊 Gelişmiş İlerleme Takibi:** * **Slider:** Sayfa sayısını sürükleyerek anlık güncelleyin.
+    * **Hızlı Butonlar:** Tek tıkla +5, +20 veya +50 sayfa ilerleyin.
+* **🎯 Akıllı Navigasyon:** Raftaki bir kitaba tıkladığınızda, uygulama sizi otomatik olarak o kitabın detay kartına kaydırır ve kartı parlatır.
+* **⭐ Puanlama Sistemi:** Okuduğunuz kitaplara 5 üzerinden yıldız puanı verin.
+* **📱 Responsive Tasarım:** Hem masaüstü hem de mobil cihazlarda kusursuz kütüphane görünümü.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
