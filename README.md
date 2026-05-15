@@ -1,21 +1,38 @@
-# 📚 LibLog - Kişisel Dijital Kütüphane Sistemi
+# 📚 LibLog: The Art of Digital Reading
 
-LibLog, okuma alışkanlıklarınızı takip etmenizi sağlayan, modern ve interaktif bir **React** uygulamasıdır. Sıradan bir listeden öte, gerçekçi bir ahşap kitaplık tasarımıyla dijital kütüphane deneyimi sunar.
-
-![LibLog Banner](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+**LibLog** is a high-end, interactive book-tracking application built with **React 18** and **Tailwind CSS v4**. Moving away from mundane lists, LibLog offers a tactile, skeuomorphic experience featuring a multi-tiered wooden bookshelf that organizes your library in real-time.
 
 ---
 
-## ✨ Özellikler
+## 🛠️ Key Features
 
-* **🪵 Gerçekçi Üçlü Raf Sistemi:** Kitaplarınız durumlarına göre (Okunuyor, Okunacak, Okundu) üç farklı ahşap rafa otomatik olarak dizilir.
-* **📖 İnteraktif Kitap Sırtları:** Her kitabın ismi sırtında dikey ve okunaklı şekilde yazar. Kitaplar, kütüphaneye eklendikçe otomatik olarak farklı renklerde ciltlenir.
-* **📊 Gelişmiş İlerleme Takibi:** * **Slider:** Sayfa sayısını sürükleyerek anlık güncelleyin.
-    * **Hızlı Butonlar:** Tek tıkla +5, +20 veya +50 sayfa ilerleyin.
-* **🎯 Akıllı Navigasyon:** Raftaki bir kitaba tıkladığınızda, uygulama sizi otomatik olarak o kitabın detay kartına kaydırır ve kartı parlatır.
-* **⭐ Puanlama Sistemi:** Okuduğunuz kitaplara 5 üzerinden yıldız puanı verin.
-* **📱 Responsive Tasarım:** Hem masaüstü hem de mobil cihazlarda kusursuz kütüphane görünümü.
+### 🪵 Sophisticated Shelf System
+Books are automatically sorted into three distinct, status-driven shelves:
+* **Current Reads:** For books you are actively enjoying.
+* **Wishlist:** For your upcoming literary adventures.
+* **Completed:** A hall of fame for your finished titles.
+
+### 📖 Interactive Book Spines
+Designed with **Accessibility-First** principles, every book features a vertical spine with bold, high-contrast typography. No matter how long the title is, it stays visible and elegant. Books are dynamically "bound" in a variety of premium leather and linen colors upon addition.
+
+### 📊 Precision Progress Management
+* **Smart Slider:** A fluid range input for millimetric page tracking.
+* **Turbo-Steps:** Quick-action buttons (+5, +20, +50) for rapid updates after a long reading session.
+* **Live Percentage:** Real-time calculation and visual feedback via dynamic progress bars.
+
+### 🎯 Seamless Navigation UX
+A "Click-to-Detail" feature that provides **Smooth Scroll** navigation. Tapping a book on the shelf instantly transports you to its control card with a "Highlight & Glow" effect, ensuring you never lose focus.
 
 ---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* **Node.js** (v18 or higher)
+* **npm** or **yarn**
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/liblog.git](https://github.com/your-username/liblog.git)
